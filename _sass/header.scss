@@ -1,0 +1,58 @@
+
+
+.header-container {
+
+  display: table;
+
+  .header {
+    display: inline-block;
+
+    width: 270px;
+    height: 312px;
+    background-color: #888888;
+
+    .gladstone-logo {
+      padding-left: 20px;
+      padding-top: 20px;
+    }
+
+    .hooked-logo {
+      width: 140px;
+      padding-left: 60px;
+      padding-top: 20px;
+    }
+  }
+
+  .navigation-container {
+    width: 100%;
+    display: table-cell;
+    margin: 0 auto;
+    vertical-align: top;
+
+    .home,
+    .bthu,
+    .the-region,
+    .about,
+    .event-reel,
+    .sponsors,
+    .partners,
+    .contact {
+      .home-text {
+        padding-top: 10px;
+        display: table;
+        margin: 0 auto
+      }
+
+      display: inline-block;
+      margin-top: 20px;
+      width: 100px;
+      height: 80px;
+
+      background-color: #009926;
+
+      margin-right: 20px;
+
+    }
+
+  }
+}

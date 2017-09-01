@@ -1,14 +1,38 @@
+<!DOCTYPE html>
+
 <html>
-<head>
-
-
-
-
-</head>
-
+{% include head.html %}
 
 <body>
-contact test
+
+<div class="page-container">
+
+
+    <div class="header-container">
+
+        <div class="header">
+            <img class="gladstone-logo" src="https://gladstoneregion.assets-be.digital/images/logo-header-full.png">
+            <img class="hooked-logo" src="https://boynetannumhookup.com.au/newsite/wp-content/uploads/2016/02/BTHU-Web-Logo-300x300.png">
+
+        </div>
+
+        <div class="navigation-container">
+        {% include header.html %}
+        </div>
+
+    </div>
+
+    <div class="content-container">
+        {{ content }}
+        CONTENT
+    </div>
+
+    <div class="footer-container">
+        {% include footer.html %}
+    </div>
+
+</div>
+
 </body>
 
 </html>
