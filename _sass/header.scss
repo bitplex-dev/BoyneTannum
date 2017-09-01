@@ -61,7 +61,7 @@
   }
 
 
-  @media screen and (max-width: 672px) {
+  @media screen and (max-width: 672px) and (min-width: 0px) {
     .navigation-container {
       display: block !important;
     }
