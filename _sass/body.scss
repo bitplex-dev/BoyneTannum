@@ -1,12 +1,31 @@
 body {
 
-margin: 0;
+  //background-color: #808080;
+  margin: 0;
+  background-image:url('https://boynetannumhookup.com.au/newsite/wp-content/uploads/2015/04/01.jpg');
+  opacity: 0.98;
+  background-size:cover;
+
 
   .content-container {
     min-height: 500px;
-    background-color: darkolivegreen;
+    background-color: white;
   }
 
+  .page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    z-index: 3;
+  }
 
+  @media screen and (max-width: 864px) and (min-width: 0px)  {
+    .page-container {
+      padding: 0 !important;
+      .nav-button {
+        margin-right: 10px !important;
+      }
+    }
+  }
 
 }
