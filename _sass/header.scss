@@ -1,5 +1,3 @@
-
-
 .header-container {
 
   display: table;
@@ -33,7 +31,7 @@
     font-size: 22px;
     color: white;
     width:  100%;
-    font-family: Helvetica, sans-serif;
+
     text-transform: uppercase;
     .arrow,
     .text {
@@ -64,7 +62,6 @@
     border-top: solid 3px rgb(239, 63, 116);
     border-right: solid 3px rgb(239, 63, 116);
 
-    font-family: Helvetica, sans-serif;
     font-size: 19px;
     padding-left: 20px;
     padding-bottom: 20px;
@@ -116,7 +113,7 @@
   @media screen and (max-width: 370px) and (min-width: 0px)  {
     .logo-container {
       .gladstone-logo {
-         width: 160px !important;
+        width: 160px !important;
         padding-top: 15px !important;
       }
       .hooked-logo {
