@@ -20,10 +20,7 @@
       padding-top: 20px;
     }
 
-    border: solid 3px rgb(239, 63, 116);
   }
-
-
 
   .back-navigation {
     border-bottom: solid 2px black;
@@ -33,6 +30,7 @@
     width:  100%;
 
     text-transform: uppercase;
+
     .arrow,
     .text {
       padding-top: 20px;
@@ -49,23 +47,27 @@
       padding-top: 20px;
 
     }
-
   }
 
   .back-navigation {
     display: none;
   }
 
+  //.main-desktop-nav {
+  //  display: block;
+  //}
+  .mobile-nav {
+    display: none !important;
+  }
+
+
   .navigation-container {
     position: relative;
-    border-bottom: solid 3px rgb(239, 63, 116);
-    border-top: solid 3px rgb(239, 63, 116);
-    border-right: solid 3px rgb(239, 63, 116);
 
-    font-size: 19px;
+    font-size: 14px;
+    font-weight: bold;
     padding-left: 20px;
     padding-bottom: 20px;
-
 
     width: 100%;
     display: table-cell;
@@ -81,7 +83,7 @@
       display: inline-block;
       margin-top: 40px;
       width: 140px;
-      height: 43px;
+      height: 50px;
       color: black;
       margin-right: 20px;
 
@@ -91,8 +93,7 @@
         padding-bottom: 5px;
         display: table;
 
-        padding-left: 5px;
-        padding-right: 5px;
+        text-align: center;
 
         text-transform: uppercase;
 
@@ -103,7 +104,6 @@
   @media screen and (max-width: 864px) and (min-width: 0px)  {
     .navigation-container,
     .logo-container {
-      border: none;
       .nav-button {
         width: 135px;
       }
@@ -122,16 +122,18 @@
       }
     }
 
-    .navigation-container{
-      padding-left: 10px;
-    }
   }
 
   @media screen and (max-width: 785px) and (min-width: 0px) {
     .back-navigation {
       display: block !important;
     }
-    .navigation-container {
+
+    .navigation-container{
+      padding-left: 10px;
+    }
+
+    .mobile-nav {
       display: block !important;
       width: auto;
 
@@ -172,5 +174,16 @@
       width: 90px!important;
       padding-left: 20px !important;
     }
+  }
+}
+
+
+@media screen and (max-width: 785px) and (min-width: 0px) {
+  .navigation-container.desktop-nav {
+    display: none !important;
+  }
+
+  .content-container.desktop-nav {
+    display: none !important;
   }
 }

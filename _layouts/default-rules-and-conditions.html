@@ -14,11 +14,16 @@
 
         {% include navigation-rules-and-conditions.html %}
 
+        {% include navigation.html %}
     </div>
 
     <div class="content-container">
-        {{ content }}
-        CONTENT
+        {% include main-navigation-rules-and-conditions.html %}
+
+        <div class="rules-and-conditions">
+            RULES & CONDITIONS
+        </div>
+
     </div>
 
     <div class="footer-container">
