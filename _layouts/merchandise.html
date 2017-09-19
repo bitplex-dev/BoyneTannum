@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+{% include head.html %}
+
+<body>
+
+<div class="page-container">
+
+    <div class="header-container">
+
+        {% include header.html %}
+
+        {% include _navigation/_2018-BTHU/mobile-navigation-return.html %}
+
+        {% include _navigation/_home/navigation.html %}
+    </div>
+
+    <div class="content-container">
+
+        <div class="body-text-container">
+
+            {% include _navigation/_2018-BTHU/sub-navigation-2018-BTHU.html %}
+
+            merchandise
+
+        </div>
+
+    </div>
+    <div class="footer-container">
+        {% include footer.html %}
+    </div>
+
+</div>
+<script>
+
+    $(".merchandise").addClass("underline");
+
+</script>
+</body>
+
+</html>

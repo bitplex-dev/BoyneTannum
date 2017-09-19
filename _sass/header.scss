@@ -1,25 +1,36 @@
 .header-container {
-
+  width: 100%;
   display: table;
 
   .logo-container {
-    display: inline-block;
 
-    width: 270px;
-    height: 332px;
+    .gladstone-logo-container {
+      display: inline;
+    }
+
     background-color: black;
 
-    .gladstone-logo {
-      padding-left: 20px;
-      padding-top: 20px;
-    }
+    display: table;
+    width: 100%;
+    height: 100px;
 
     .hooked-logo {
-      width: 140px;
+      width: 70px;
       padding-left: 60px;
-      padding-top: 20px;
+      padding-top: 10px;
+
     }
 
+    .hooked-logo-container{
+      display: inline;
+      float: left;
+    }
+
+    .gladstone-logo {
+      width: 160px;
+      padding-top: 15px;
+      padding-left: 20px;
+    }
   }
 
   .back-navigation {
@@ -53,24 +64,26 @@
     display: none;
   }
 
-  //.main-desktop-nav {
-  //  display: block;
-  //}
   .mobile-nav {
     display: none !important;
   }
 
-
   .navigation-container {
+
+    .sub-container {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
     position: relative;
 
     font-size: 14px;
     font-weight: bold;
     padding-left: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 
-    width: 100%;
-    display: table-cell;
+    width: auto;
+    display: block;
     margin: 0 auto;
     vertical-align: top;
     background-color: #BC0084;
@@ -81,47 +94,35 @@
       border: 3px solid black;
       background-color: white;
       display: inline-block;
-      margin-top: 40px;
+      margin-top: 20px;
       width: 140px;
       height: 50px;
       color: black;
-      margin-right: 20px;
+      margin-right: 19px;
 
       .home-text {
         margin: 0 auto !important;
         padding-top: 10px;
         padding-bottom: 5px;
         display: table;
-
         text-align: center;
-
         text-transform: uppercase;
-
       }
     }
   }
 
   @media screen and (max-width: 864px) and (min-width: 0px)  {
+    .logo-container {
+      height: 115px !important;
+    }
+
     .navigation-container,
     .logo-container {
+
       .nav-button {
         width: 135px;
       }
     }
-  }
-
-  @media screen and (max-width: 370px) and (min-width: 0px)  {
-    .logo-container {
-      .gladstone-logo {
-        width: 160px !important;
-        padding-top: 15px !important;
-      }
-      .hooked-logo {
-        width : 70px !important;
-        padding-top: 10px !important;
-      }
-    }
-
   }
 
   @media screen and (max-width: 785px) and (min-width: 0px) {

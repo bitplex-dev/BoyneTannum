@@ -1,5 +1,5 @@
 ---
-layout: default-rules-and-conditions
+layout: rules-and-conditions
 title: Rules and Conditions
 permalink: /rules/
 ---

@@ -1,6 +1,19 @@
 body {
 
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-image:url("/content/images/01.jpg");
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size:cover;
+  opacity: 0.98;
+
+
+
   .content-container {
+
     .navigation-container{
 
     width: 700px;
@@ -11,7 +24,7 @@ body {
       display: inline;
       font-size: 16px;
       font-weight: bold;
-      color: #0078d7;
+      color: black;
       text-transform: uppercase;
     }
 
@@ -31,14 +44,6 @@ body {
     text-decoration: none;
   }
 
-  font-family: 'Roboto', sans-serif;
-
-  //background-color: #808080;
-  margin: 0;
-  background-image:url('https://boynetannumhookup.com.au/newsite/wp-content/uploads/2015/04/01.jpg');
-  opacity: 0.98;
-  background-size:cover;
-
 
   .content-container {
     min-height: 500px;
@@ -57,7 +62,6 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    z-index: 3;
   }
 
   @media screen and (max-width: 864px) and (min-width: 0px)  {

@@ -12,18 +12,18 @@
 
         {% include header.html %}
 
-        {% include navigation-rules-and-conditions.html %}
+        {% include _navigation/_2018-BTHU/mobile-navigation-return.html %}
 
-        {% include navigation.html %}
+        {% include _navigation/_home/navigation.html %}
     </div>
 
     <div class="content-container">
-        {% include main-navigation-rules-and-conditions.html %}
+        {% include _navigation/_2018-BTHU/sub-navigation-2018-BTHU.html %}
 
         <div class="rules-and-conditions">
             RULES & CONDITIONS
 
-            <a href=" {{ site.url }}/downloads/pdf/2018-HookUp-Rules-and-Conditions.pdf" download>Open Rules and Conditions</a>
+            <a href=" {{ site.url }}/content/pdf/2018-HookUp-Rules-and-Conditions.pdf" download>Open Rules and Conditions</a>
         </div>
 
     </div>
@@ -34,6 +34,12 @@
 
 </div>
 
+
+
+
+<script>
+    $(".rules").addClass("underline");
+</script>
 </body>
 
 </html>
