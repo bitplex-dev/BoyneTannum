@@ -36,10 +36,17 @@
   @media screen and (max-width: 785px) and (min-width: 0px)  {
     .body-container.merchandise {
 
+      .row-container,
+      .column-one,
+      .column-two {
+        display: block;
+          width: 100%;
+      }
+
       .row-one,
       .row-two,
       .row-three {
-        width: 70% !important;
+        width: 100% !important;
         display: block !important;
         margin: 0 auto;
       }

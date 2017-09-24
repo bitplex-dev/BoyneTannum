@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+{% include head.html %}
+
+<body>
+
+<div class="page-container">
+
+    <div class="header-container">
+
+        {% include header.html %}
+
+        {% include _navigation/_2018-BTHU/mobile-navigation-return.html %}
+
+        {% include _navigation/_home/navigation.html %}
+    </div>
+
+    <div class="content-container">
+
+        <div class="body-container merchandise">
+            {% include _navigation/_2018-BTHU/sub-navigation-2018-BTHU.html %}
+
+            <div class="header-text">
+                <br>
+                <br>
+                <h1>MERCHANDISE</h1>
+            </div>
+
+            <br>
+            <h2>Men’s Long Sleeve Coral Trout – $50.00</h2>
+            <p>BTHU Merchandise</p>
+
+            <div class="column-container">
+                <div class="column-one">
+                    <div class="row-container">
+                        <div class="row-one">
+                            <img class="shirt-image" src="{{site.url}}/content/images/shirtFour/ECO65_Blue-Long-Sleeve-front.jpg">
+
+                        </div>
+                        <div class="row-two">
+                            <img class="shirt-image" src="{{site.url}}/content/images/shirtFour/ECO65_Blue-Long-Sleeve-back.jpg">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-container">
+        {% include footer.html %}
+    </div>
+
+</div>
+<script>
+
+    $(".merchandise").addClass("underline");
+
+</script>
+</body>
+
+</html>
