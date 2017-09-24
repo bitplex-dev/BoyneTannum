@@ -18,11 +18,68 @@
 
     <div class="content-container">
 
-        <div class="body-text-container">
-
+        <div class="body-container fish-categories">
             {% include _navigation/_2018-BTHU/sub-navigation-2018-BTHU.html %}
 
-            Fish Categories
+            <div class="header-text">
+                <br>
+                <br>
+                <h1>FISH CATEGORIES/WEIGH INS</h1>
+                <br>
+            </div>
+            <div class="column-container">
+            <div class="column-one">
+                <button class="accordion"><div class="text-accordian">Fish Weigh-ins</div> <div class="positive-negative"/></button>
+                <div class="panel">
+                    <p>Each fish caught will be weighed in at the Official Daily Weigh-in tent at Bray Park Boyne Island. The daily weigh-in will be conducted Friday, Saturday and Sunday at 10:00am to 11:00am and again at 2:00pm until 4:00pm (there is no weigh-in on Friday morning).</p>
+                    <p>Competitors must present their 2017 Electronic Ticket at weigh-ins, without their Electronic Ticket, competitors are not eligible to weigh-in fish. Entry to the weigh-in and entertainment area will only be permitted to those issued with an Electronic Ticket.</p>
+                    <p>All fish must be weighed on the official scales provided by the organisers to be eligible. Fish presented at the weigh-in station must be taken on rod and reel or hand line only and must be of legal size. Fish must be gilled and gutted (with the exception of live categories) and can be iced down but not frozen. Any such fish may be selected at the weigh-in for promotional purposes and may become the property of Boyne Tannum HookUp Association Incorporated and unfortunately cannot be returned to the competitor. </p>
+
+                </div>
+
+                <button class="accordion"><div class="text-accordian">Junior Competitors Fish Weigh-ins</div> <div class="positive-negative"/> </button>
+                <div class="panel">
+                    <p>Junior competitors must catch the fish and retrieve the fish to the boat or shore themselves. A parent can help lift the fish into the boat. Junior competitors must be able to hold the rod and retrieve the fish by themselves and be able to lift their fish at the weigh-in station to be eligible, inability to do so will be deemed that the junior competitor did not catch the fish and will not be allowed to weigh it in.</p>
+                </div>
+
+                <button class="accordion"><div class="text-accordian">Live Fish Categories</div> <div class="positive-negative"/></button>
+                <div class="panel">
+                    <p>Live fish can be brought to the live fish weigh-in station at any time between the hours of 8:00am to&nbsp;4:00pm on Friday and Saturday and 7:00am to&nbsp;3:30pm on Sunday. However to qualify for the daily prizes, the fish must be weighed in no later than the daily cut off time on that day. The fish must remain alive for 30 minutes in the Official HookUp recovery tank to qualify for official entry into the event. </p>
+                </div>
+
+                <button class="accordion"><div class="text-accordian">Introducing Jet Ski Fishing</div> <div class="positive-negative"/></button>
+                <div class="panel">
+                    <p>Boyne Tannum Hookup are excited to announce the new fishing category Jet Ski Fishing sponsored by Yamaha JetFish.</p>
+                </div>
+
+                <button class="accordion"><div class="text-accordian">Three Tagged Fish</div> <div class="positive-negative"/></button>
+                <div class="panel">
+                    <p>Three fish will be caught-tagged and released prior to the event each having a prize value of $5,000 if caught. The fish must be presented under the live category rules and the tag checked by the officials to claim the $5,000 prize money for that fish. </p>
+                    <p>All other tagged fish presented at the live weigh-in station during the event will go into a draw for a non-monetary prize each day. These fish are to be presented under the live category rules.</p>
+                </div>
+
+                <button class="accordion"><div class="text-accordian">Catch & Release</div> <div class="positive-negative"/></button>
+                <div class="panel">
+                    <p>All Barramundi will be photographed and measured on a reputable Brag Mat to meet QLD legal size. &nbsp;No homemade mats will be accepted. All other live fish categories are to be weighed in at the official weigh-in station, tagged, placed in the recovery tank and released after a minimum of 30 minutes. To ascertain that the fish has been caught within the competition time, an official HookUp sticker can be collected from the merchandise marquee at the start of and during the event. Two digital photos, one showing the whole fish, with the head at the start of the measure, the other zoomed in on the tail showing its length. Both photos must display the current HookUp sticker. </p>
+                </div>
+
+                <button class="accordion"><div class="text-accordian">Fish Categories-Final & Daily Payouts</div> <div class="positive-negative"/></button>
+                <div class="panel">
+                    <p>At the conclusion of the daily weigh-in all Daily Fish Category Winners will be awarded the Daily Fish Category Payout for the heaviest fish recorded for that day. Competitors must present their Electronic Ticket at weigh-ins to be eligible. </p>
+                </div>
+                <button class="accordion bottom-accordian"><div class="text-accordian">Competition Final</div> <div class="positive-negative"/></button>
+                <div class="panel">
+                    <p>Anyone not in the queue at the final weigh-in with a fish to be weighed at 4:00pm Sunday, 30th April 2017 &nbsp; will be deemed ineligible to “weigh-in” and therefore outside the Official Finish Time.&nbsp; Competitors must present an Official 2017 Electronic Ticket at weigh-ins. </p>
+
+                </div>
+            </div>
+
+            <div class="column-two">
+
+            </div>
+            </div>
+
+
 
         </div>
 
@@ -35,8 +92,53 @@
 
 
 
+<style>
+
+    .accordion .positive-negative:after {
+        content: '\02795'; /* Unicode character for "plus" sign (+) */
+        font-size: 13px;
+        color: #777;
+        float: right;
+        /*margin-left: 5px;*/
+    }
+
+    .accordion.active .positive-negative:after {
+        content: "\2796"; /* Unicode character for "minus" sign (-) */
+    }
+
+    .text-accordian {
+        float: left;
+    }
+
+   .positive-negative {
+        float: right;
+        width: 20px;
+        height: 20px;
+    }
+
+</style>
+
 <script>
     $(".categories").addClass("underline");
+
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].onclick = function(){
+            /* Toggle between adding and removing the "active" class,
+            to highlight the button that controls the panel */
+            this.classList.toggle("active");
+
+            /* Toggle between hiding and showing the active panel */
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        }
+    }
 </script>
 </body>
 

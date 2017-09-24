@@ -1,0 +1,21 @@
+.body-container.prizes {
+  .column-one{
+    padding-right: 10px;
+    width: 66%;
+    display: table-cell;
+    vertical-align: top;
+  }
+  .column-two{
+    overflow: hidden;
+    width: 33.33%;
+    display: table-cell;
+    background-image:url(/content/images/Prizes-Background.png);
+    background-position: center center;
+    background-size: cover;
+    height: 1300px;
+  }
+
+  .header-text {
+    width:100%;
+  }
+}

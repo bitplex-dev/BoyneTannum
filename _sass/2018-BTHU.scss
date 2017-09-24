@@ -1,0 +1,32 @@
+.hooked-logo.bthu {
+  width: 210px;
+  margin: 0 auto;
+  //padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.body-container.bthu {
+  .column-one{
+    width: 50%;
+    display: table-cell;
+    vertical-align: top;
+  }
+  .column-two{
+    width: 50%;
+    display: table-cell;
+  }
+}
+
+
+@media screen and (max-width: 600px) and (min-width: 0px)  {
+  .body-container.bthu {
+    .column-one{
+      width: 100%;
+      display: block;
+    }
+    .column-two{
+      width: 100%;
+      display: block;
+    }
+  }
+}
