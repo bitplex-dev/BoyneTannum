@@ -1,0 +1,48 @@
+.body-container.merchandise {
+
+  display: block;
+
+  .column-one{
+    width: 100%;
+    //display: block;
+  }
+  .column-two{
+    display: block;
+    width: 100%;
+  }
+
+  .header-text {
+    width:100%;
+  }
+
+  .row-container {
+
+    display: table;
+
+    .shirt-image {
+      width: 100%;
+    }
+
+    .row-one,
+    .row-two,
+    .row-three {
+      display: table-cell;
+      width: 33%;
+    }
+  }
+}
+
+
+  @media screen and (max-width: 785px) and (min-width: 0px)  {
+    .body-container.merchandise {
+
+      .row-one,
+      .row-two,
+      .row-three {
+        width: 70% !important;
+        display: block !important;
+        margin: 0 auto;
+      }
+
+    }
+  }
