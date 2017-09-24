@@ -1,9 +1,19 @@
 .body-container.prizes {
   .column-one{
+
+    .first-prize-image,
+    .pat-memorial-image,
+    .jet-ski-image {
+      width: 100%;
+    }
+
     padding-right: 10px;
     width: 66%;
     display: table-cell;
     vertical-align: top;
+    .bottom-accordian {
+      margin-bottom: 0;
+    }
   }
   .column-two{
     overflow: hidden;
@@ -12,10 +22,29 @@
     background-image:url(/content/images/Prizes-Background.png);
     background-position: center center;
     background-size: cover;
-    height: 1300px;
+    min-height: 790px;
   }
 
   .header-text {
     width:100%;
+  }
+}
+
+
+@media screen and (max-width: 785px) and (min-width: 0px)  {
+  .body-container.prizes {
+    button.accordion {
+      font-size: 16px;
+      word-break: break-word;
+    }
+
+    .column-one{
+      width: 100%;
+      display: block;
+    }
+    .column-two{
+      width: 100%;
+      display: none;
+    }
   }
 }

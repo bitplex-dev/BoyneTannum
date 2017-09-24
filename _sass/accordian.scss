@@ -38,3 +38,25 @@ div.panel {
     text-align: left;
   }
 }
+
+
+.accordion .positive-negative:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+}
+
+.accordion.active .positive-negative:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.text-accordian {
+  float: left;
+}
+
+.positive-negative {
+  float: right;
+  width: 20px;
+  height: 20px;
+}
