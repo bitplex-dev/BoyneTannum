@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+{% include head.html %}
+
+<body>
+
+<div class="page-container">
+
+    <div class="header-container">
+
+        {% include header.html %}
+
+        {% include _navigation/_2018-BTHU/mobile-navigation-return.html %}
+
+        {% include _navigation/_home/navigation.html %}
+    </div>
+
+    <div class="content-container">
+
+        <div class="body-container 2016-photos-leaderboard">
+            {% include _navigation/_2018-BTHU/sub-navigation-2018-BTHU.html %}
+
+            <div class="header-text">
+                <br>
+                <br>
+                <h1>2017 PHOTOS &amp LEADERBOARD</h1>
+            </div>
+            <div class="column-container">
+
+                <div class="column-one">
+                    <div class="row-container">
+
+                        <a href="{{ site.url }}/product/boy-long-sleeve-blue/" class="row-one">
+
+
+                                <img class="shirt-image" src="{{site.url}}/content/images/shirtOne/ECO65_Kids-long-sleeve-blue-front.jpg">
+
+                                <h2>Boys Size Long Sleeve Fish with Glasses – $35.00</h2>
+                                <p>BTHU Merchandise</p>
+
+                        </a>
+
+                        <a href="{{ site.url }}/product/kids-long-sleeve-pink/" class="row-two">
+
+                                <img class="shirt-image" src="{{site.url}}/content/images/shirtTwo/ECO65_Kids-long-sleeve-pink-front.jpg">
+
+                                <h2>Girls Size Long Sleeve Fish with Glasses – $35.00</h2>
+                                <p>BTHU Merchandise</p>
+
+
+                        </a>
+
+                        <a href="{{ site.url }}/product/men-short-sleeve/" class="row-three">
+                            <img class="shirt-image" src="{{site.url}}/content/images/shirtThree/ECO65_Red-Short-Sleeve-front.jpg">
+
+                            <h2>Men’s Short Sleeve Evolution Design – $40.00</h2>
+                            <p>BTHU Merchandise</p>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="column-two">
+                    <div class="row-container">
+
+                        <a href="{{ site.url }}/product/men-long-sleeve-coral-trout/" class="row-one">
+                            <img class="shirt-image" src="{{site.url}}/content/images/shirtFour/ECO65_Blue-Long-Sleeve-front.jpg">
+
+                            <h2>Men’s Long Sleeve Coral Trout – $50.00</h2>
+                            <p>BTHU Merchandise</p>
+
+                        </a>
+
+                        <a href="{{ site.url }}/product/women-long-sleeve-coral-trout/" class="row-two">
+                            <img class="shirt-image" src="{{site.url}}/content/images/shirtFive/ECO65_Purple-Long-Sleeve-front.jpg">
+
+                            <h2>Women’s Long Sleeve Coral Trout – $50.00</h2>
+                            <p>BTHU Merchandise</p>
+
+                        </a>
+                            <a href="{{ site.url }}/product/women-short-sleeve/" class="row-three">
+                                <img class="shirt-image" src="{{site.url}}/content/images/shirtSix/ECO65_Purple-Short-Sleeve-front.jpg">
+
+                                <h2>Women’s Short Sleeve Evolution Design – $40.00</h2>
+                                <p>BTHU Merchandise</p>
+                            </a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+        </div>
+    </div>
+    <div class="footer-container">
+        {% include footer.html %}
+    </div>
+
+</div>
+<script>
+
+    $(".merchandise").addClass("underline");
+
+</script>
+</body>
+
+</html>

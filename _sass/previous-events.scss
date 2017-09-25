@@ -1,0 +1,48 @@
+
+.body-container.previous-event {
+  .column-one{
+    height: 300px;
+    padding-right: 10px;
+    width: 100%;
+    display: table-cell;
+    vertical-align: top;
+    background-image:url(/content/images/Hookup-Slider3.jpg);
+    color: white;
+  }
+  .column-two{
+    overflow: hidden;
+    width: 50%;
+    display: table-cell;
+    background-image:url(/content/images/Hookup-Slider3.jpg);
+    background-position: center center;
+    background-size: cover;
+    color: white;
+
+    height: 200px;
+
+    //min-height: 790px;
+  }
+
+  //.header-text {
+  //  width:100%;
+  //}
+}
+
+
+@media screen and (max-width: 785px) and (min-width: 0px)  {
+  //.body-container.fish-categories {
+  //  button.accordion {
+  //    font-size: 16px;
+  //    word-break: break-word;
+  //  }
+  //
+  //  .column-one{
+  //    width: 100%;
+  //    display: block;
+  //  }
+  //  .column-two{
+  //    width: 100%;
+  //    display: none;
+  //  }
+  //}
+}
