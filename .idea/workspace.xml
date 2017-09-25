@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cde93b7a-fe42-4aac-8b64-3cb5ec297210" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_layouts/2016-photos-and-leaderboard.html" afterPath="$PROJECT_DIR$/_layouts/twenty-sixteen-photos-and-leaderboard.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_layouts/2017-photos-and-leaderboard.html" afterPath="$PROJECT_DIR$/_layouts/twenty-seventeen-photos-and-leaderboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/_navigation/_2018-BTHU/mobile-navigation-2018-BTHU.html" afterPath="$PROJECT_DIR$/_includes/_navigation/_2018-BTHU/mobile-navigation-2018-BTHU.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/_navigation/_home/mobile-navigation.html" afterPath="$PROJECT_DIR$/_includes/_navigation/_home/mobile-navigation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/_navigation/_home/navigation.html" afterPath="$PROJECT_DIR$/_includes/_navigation/_home/navigation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/previous-event.html" afterPath="$PROJECT_DIR$/_layouts/previous-event.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_pages/14_2016-photos-and-leaderboard.md" afterPath="$PROJECT_DIR$/_pages/14_2016-photos-and-leaderboard.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_pages/15_2017-photos-and-leaderboard.md" afterPath="$PROJECT_DIR$/_pages/15_2017-photos-and-leaderboard.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/2016-leaderboard-gallery.scss" afterPath="$PROJECT_DIR$/_sass/2016-leaderboard-gallery.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/body.scss" afterPath="$PROJECT_DIR$/_sass/body.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/header.scss" afterPath="$PROJECT_DIR$/_sass/header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/page-content.scss" afterPath="$PROJECT_DIR$/_sass/page-content.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -614,12 +602,12 @@
       <workItem from="1505696166227" duration="9228000" />
       <workItem from="1505712290173" duration="26784000" />
       <workItem from="1506223352471" duration="32858000" />
-      <workItem from="1506325767596" duration="2395000" />
+      <workItem from="1506325767596" duration="2470000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133629000" />
+    <option name="totallyTimeSpent" value="133704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1544" y="-79" width="1679" height="979" extended-state="0" />
@@ -900,11 +888,11 @@
         <state relative-caret-position="2175">
           <caret line="145" column="52" lean-forward="false" selection-start-line="145" selection-start-column="52" selection-end-line="145" selection-end-column="52" />
           <folding>
-            <marker date="1506328644000" expanded="true" signature="4656:4824" ph="..." />
-            <marker date="1506328644000" expanded="true" signature="4656:4835" ph="..." />
-            <marker date="1506328644000" expanded="true" signature="4870:5485" ph="..." />
-            <marker date="1506328644000" expanded="true" signature="4920:5474" ph="..." />
-            <marker date="1506328644000" expanded="true" signature="5503:5561" ph="..." />
+            <marker date="1506328678000" expanded="true" signature="4656:4824" ph="..." />
+            <marker date="1506328678000" expanded="true" signature="4656:4835" ph="..." />
+            <marker date="1506328678000" expanded="true" signature="4870:5485" ph="..." />
+            <marker date="1506328678000" expanded="true" signature="4920:5474" ph="..." />
+            <marker date="1506328678000" expanded="true" signature="5503:5561" ph="..." />
           </folding>
         </state>
       </provider>
