@@ -1,5 +1,5 @@
 ---
-layout: 2016-photos-and-leaderboard
+layout: twenty-sixteen-photos-and-leaderboard
 title: 2016 Photos and Leaderboard
-permalink: /previous-event/2016-photos-and-leaderboard
+permalink: /2016-photos-and-leaderboard/
 ---
