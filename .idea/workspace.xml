@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cde93b7a-fe42-4aac-8b64-3cb5ec297210" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/_navigation/_2018-BTHU/mobile-navigation-2018-BTHU.html" afterPath="$PROJECT_DIR$/_includes/_navigation/_2018-BTHU/mobile-navigation-2018-BTHU.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/_navigation/_2018-BTHU/sub-navigation-2018-BTHU.html" afterPath="$PROJECT_DIR$/_includes/_navigation/_2018-BTHU/sub-navigation-2018-BTHU.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/boy-long-sleeve-blue.html" afterPath="$PROJECT_DIR$/_layouts/boy-long-sleeve-blue.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/kids-long-sleeve-pink.html" afterPath="$PROJECT_DIR$/_layouts/kids-long-sleeve-pink.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/men-long-sleeve-coral-trout.html" afterPath="$PROJECT_DIR$/_layouts/men-long-sleeve-coral-trout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/men-short-sleeve.html" afterPath="$PROJECT_DIR$/_layouts/men-short-sleeve.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/previous-event.html" afterPath="$PROJECT_DIR$/_layouts/previous-event.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/women-long-sleeve-coral-trout.html" afterPath="$PROJECT_DIR$/_layouts/women-long-sleeve-coral-trout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/women-short-sleeve.html" afterPath="$PROJECT_DIR$/_layouts/women-short-sleeve.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.scss" afterPath="$PROJECT_DIR$/css/main.scss" />
-    </list>
+    <list default="true" id="cde93b7a-fe42-4aac-8b64-3cb5ec297210" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/_layouts/2016-photos-and-leaderboard.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="440">
-              <caret line="50" column="37" lean-forward="true" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+              <caret line="50" column="37" lean-forward="false" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -213,8 +202,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1637" />
-    <option name="y" value="-128" />
+    <option name="x" value="1753" />
+    <option name="y" value="-86" />
     <option name="width" value="1815" />
     <option name="height" value="981" />
   </component>
@@ -593,15 +582,15 @@
       <workItem from="1505286570205" duration="20859000" />
       <workItem from="1505696166227" duration="9228000" />
       <workItem from="1505712290173" duration="26784000" />
-      <workItem from="1506223352471" duration="23468000" />
+      <workItem from="1506223352471" duration="23513000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121844000" />
+    <option name="totallyTimeSpent" value="121889000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1637" y="-128" width="1815" height="981" extended-state="0" />
+    <frame x="1753" y="-86" width="1815" height="981" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1088,7 +1077,7 @@
     <entry file="file://$PROJECT_DIR$/_layouts/2016-photos-and-leaderboard.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
-          <caret line="50" column="37" lean-forward="true" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+          <caret line="50" column="37" lean-forward="false" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
           <folding />
         </state>
       </provider>
