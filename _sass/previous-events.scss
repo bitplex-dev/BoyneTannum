@@ -23,26 +23,14 @@
     //min-height: 790px;
   }
 
-  //.header-text {
-  //  width:100%;
-  //}
+  .previous-event-image {
+    width: 75%;
+  }
 }
 
 
 @media screen and (max-width: 785px) and (min-width: 0px)  {
-  //.body-container.fish-categories {
-  //  button.accordion {
-  //    font-size: 16px;
-  //    word-break: break-word;
-  //  }
-  //
-  //  .column-one{
-  //    width: 100%;
-  //    display: block;
-  //  }
-  //  .column-two{
-  //    width: 100%;
-  //    display: none;
-  //  }
-  //}
+  .previous-event-image {
+    width: 100% !important;
+  }
 }

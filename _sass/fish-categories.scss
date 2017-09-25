@@ -10,15 +10,14 @@
       margin-bottom: 0;
     }
   }
-  //.column-two{
-  //  overflow: hidden;
-  //  width: 33.33%;
-  //  display: table-cell;
-  //  background-image:url(/content/images/hook070609-28.jpg);
-  //  background-position: center center;
-  //  background-size: cover;
-  //  min-height: 790px;
-  //}
+
+  .weight-in-image-container {
+    text-align: center;
+    .image {
+      width: 75%;
+    }
+  }
+
 
   .header-text {
     width:100%;
@@ -31,6 +30,12 @@
     button.accordion {
       font-size: 16px;
       word-break: break-word;
+    }
+
+    .weight-in-image-container {
+      .image {
+        width: 100% !important;
+      }
     }
 
     .column-one{
