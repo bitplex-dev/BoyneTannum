@@ -7,6 +7,10 @@
       width: 100%;
     }
 
+
+
+    text-align: left;
+
     padding-right: 10px;
     width: 66%;
     display: table-cell;
@@ -15,15 +19,18 @@
       margin-bottom: 0;
     }
   }
-  .column-two{
-    overflow: hidden;
-    width: 33.33%;
-    display: table-cell;
-    background-image:url(/content/images/Prizes-Background.png);
-    background-position: center center;
-    background-size: cover;
-    min-height: 790px;
-  }
+
+
+;
+  //.column-two{
+  //  overflow: hidden;
+  //  width: 33.33%;
+  //  display: table-cell;
+  //  background-image:url(/content/images/Prizes-Background.png);
+  //  background-position: center center;
+  //  background-size: cover;
+  //  min-height: 790px;
+  //}
 
   .header-text {
     width:100%;
@@ -42,9 +49,9 @@
       width: 100%;
       display: block;
     }
-    .column-two{
-      width: 100%;
-      display: none;
-    }
+    //.column-two{
+    //  width: 100%;
+    //  display: none;
+    //}
   }
 }

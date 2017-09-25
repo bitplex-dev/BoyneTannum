@@ -157,15 +157,6 @@
 
 
   @media screen and (max-width: 785px) and (min-width: 0px) {
-
-    .navigation-container.desktop-nav {
-      display: none !important;
-    }
-
-    .content-container.desktop-nav {
-      display: none !important;
-    }
-
     .back-navigation {
       display: block !important;
     }
@@ -189,3 +180,12 @@
 }
 
 
+@media screen and (max-width: 785px) and (min-width: 0px) {
+  .navigation-container.desktop-nav {
+    display: none !important;
+  }
+
+  .content-container.desktop-nav {
+    display: none !important;
+  }
+}
