@@ -6,6 +6,11 @@
 }
 
 .body-container.bthu {
+
+  .gallery-image {
+    width:75%;
+  }
+
   .column-one{
     width: 50%;
     display: table-cell;
@@ -20,6 +25,11 @@
 
 @media screen and (max-width: 600px) and (min-width: 0px)  {
   .body-container.bthu {
+
+    .gallery-image {
+      width:100%;
+    }
+
     .column-one{
       width: 100%;
       display: block;

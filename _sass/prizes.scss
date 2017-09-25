@@ -8,6 +8,15 @@
     }
 
 
+    .gallery-image {
+      width:75%;
+
+    }
+
+    .first-prize-container {
+      text-align: center !important;
+    }
+
 
     text-align: left;
 
@@ -21,7 +30,7 @@
   }
 
 
-;
+//;
   //.column-two{
   //  overflow: hidden;
   //  width: 33.33%;
@@ -43,6 +52,10 @@
     button.accordion {
       font-size: 16px;
       word-break: break-word;
+    }
+
+    .gallery-image {
+      width:100% !important;
     }
 
     .column-one{
