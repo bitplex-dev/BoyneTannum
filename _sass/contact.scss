@@ -1,0 +1,16 @@
+#map {
+  height: 100%;
+}
+
+.google-api {
+  margin: 0 auto;
+  width: 700px;
+  height: 500px;
+}
+
+@media screen and (max-width: 785px) and (min-width: 0px)  {
+  .google-api {
+    width: 300px;
+    height: 400px;
+  }
+}

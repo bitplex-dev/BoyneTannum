@@ -1,5 +1,4 @@
 .body-container.photos-leaderboard {
-
   display: block;
 
   .header-text {
@@ -26,14 +25,12 @@
       display: table-cell;
       width: 25%;
       padding-right: 5px;
-
     }
   }
 }
 
 @media screen and (max-width: 785px) and (min-width: 0px) {
   .body-container.photos-leaderboard {
-
     .row-one,
     .row-two,
     .row-three,
@@ -41,7 +38,6 @@
       display: block !important;
       width: 100% !important;
     }
-
     .last {
       width: 100% !important;
     }

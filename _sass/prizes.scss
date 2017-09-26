@@ -7,19 +7,15 @@
       width: 100%;
     }
 
-
     .gallery-image {
       width:75%;
-
     }
 
     .first-prize-container {
       text-align: center !important;
     }
 
-
     text-align: left;
-
     padding-right: 10px;
     width: 66%;
     display: table-cell;
@@ -29,23 +25,10 @@
     }
   }
 
-
-//;
-  //.column-two{
-  //  overflow: hidden;
-  //  width: 33.33%;
-  //  display: table-cell;
-  //  background-image:url(/content/images/Prizes-Background.png);
-  //  background-position: center center;
-  //  background-size: cover;
-  //  min-height: 790px;
-  //}
-
   .header-text {
     width:100%;
   }
 }
-
 
 @media screen and (max-width: 785px) and (min-width: 0px)  {
   .body-container.prizes {
@@ -62,9 +45,5 @@
       width: 100%;
       display: block;
     }
-    //.column-two{
-    //  width: 100%;
-    //  display: none;
-    //}
   }
 }

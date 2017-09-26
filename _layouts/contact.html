@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+{% include head.html %}
+<body>
+
+<div class="page-container">
+
+
+    <div class="header-container">
+
+        {% include header.html %}
+
+        {% include _navigation/_home/navigation.html %}
+
+        {% include _navigation/_home/mobile-navigation.html %}
+
+    </div>
+
+    <div class="content-container">
+        <div class="body-container">
+
+            <br>
+            <h1>CONTACT US</h1>
+            <br>
+            <h2>EMAIL</h2>
+            <p><a href="mailto:enquiries@boynetannumhookup.com.au">enquiries@boynetannumhookup.com.au</a></p>
+            <br>
+            <h2>ADDRESS</h2>
+            <p>Bray Park Wyndham Avenue, Boyne Tannum QLD 4680</p>
+
+            <br>
+            <div class="google-api">
+                <div id="map"></div>
+            </div>
+
+            <br>
+            <br>
+        </div>
+    </div>
+
+    <div class="footer-container">
+        {% include footer.html %}
+    </div>
+
+</div>
+
+<script>
+
+    function initMap() {
+        var myLatLng = {lat: -23.9423791, lng: 151.3540289};
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 16,
+            center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            title: 'Boyne Tannum Hookup Association Inc.'
+        });
+    }
+
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIv7Aso42k_E0gAkuC7Xf9V2AeBykFDY0&callback=initMap">
+</script>
+
+</body>
+
+</html>
